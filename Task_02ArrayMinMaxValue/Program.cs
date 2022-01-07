@@ -31,7 +31,7 @@ int[] CreateArray(int n)
     Array[index] = GetArrayA(-10,20);
     return Array;
 }
-void PrintArrayA(int[] Array)
+void PrintArrayA(int[] array)
 {
     // int position = 0;
     // while (position < Array.Length)
@@ -39,8 +39,8 @@ void PrintArrayA(int[] Array)
     //     Console.Write(" " +Array[position]+ " ");
     //     position++;
     // }
-    for(int index = 0; index < Array.Length; index++)
-    Console.WriteLine(Array[index] + " ");
+    for(int index = 0; index < array.Length; index++)
+    Console.WriteLine(array[index] + " ");
     
     
 }
